@@ -1,0 +1,40 @@
+{
+  "name": "git-em-all",
+  "description": "Clone/Pull an array of git repositories as fast as possible.",
+  "version": "1.0.0",
+  "author": "Dan Flettre <fletd01@yahoo.com>",
+  "bugs": {
+    "url": "https://github.com/Flet/git-em-all/issues"
+  },
+  "devDependencies": {
+    "standard": "*",
+    "standard-packages": "^1.2.4",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.2.1"
+  },
+  "homepage": "https://github.com/Flet/git-em-all",
+  "keywords": [
+    "all",
+    "clone",
+    "em",
+    "get",
+    "git",
+    "gotta",
+    "pokemon",
+    "pull"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Flet/git-em-all.git"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.js | tap-spec"
+  },
+  "dependencies": {
+    "dezalgo": "^1.0.3",
+    "run-parallel-limit": "^1.0.2",
+    "shelljs": "^0.5.3"
+  }
+}
